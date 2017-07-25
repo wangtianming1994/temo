@@ -1,0 +1,118 @@
+
+/* reset */
+html{color:#000;background:#fff;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+body{font-family:microsoft yahei,sans-serif;font-size:14px;}
+img{border:none;}
+em,strong{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+table {border-collapse:collapse;border-spacing:0;}
+h1{font-size:18px;}
+h2{font-size:16px;}
+h3{font-size:14px;}
+h4, h5, h6{font-size:100%;}
+
+q:before,q:after{content:'';}
+button,input,select,textarea{font-size:100%;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+address,cite,dfn,em,var{font-style:normal;}
+.box{-moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari 和 Chrome */
+    border-radius: 5px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+}
+/* link */
+a{color:#555;text-decoration:none;}
+a:hover{text-decoration:none;}
+.wrapper {width:1098px;margin:auto;}
+.article {width: 100%; text-align: center; }
+.article h3 {margin-bottom: 40px;}
+.article table { text-align: left;}
+.tab { width: 100%;}
+.nav.tab { width: auto; max-width: 100%; margin: 0; border: 0; padding: 0; border-bottom: 1px solid #ddd; }
+.pignose-sub-tab { border: 0; margin: 0; padding: 0;}
+.table { width: 100%; table-layout: fixed; }
+.table .subject { text-align: left; padding-left: 5%; }
+.table .date { text-align: right; padding-right: 5%; }
+.dormitory{background-image:url("../images/dormitory-icon.png") ; background-repeat:no-repeat;background-position:center top;}
+.dir-act{background-image:url("../images/dormitory-icon-act.png") ; background-repeat:no-repeat;background-position:center top;}
+.noActiveTitle{background-color:#fff !important;}
+.m-t-11px{margin-top:11px;}
+.m-t-14px{margin-top:14px;}
+.m-t-19px{margin-top:26px;}
+.m-b-6px{display:inline-block;margin-bottom:6px;}
+.m-b-25px{display:inline-block;margin-bottom:25px;}
+.top-line{position: absolute; top: 70px;left: 0;width: 100%; z-index: 200;border-top: 7px solid #F0EFEF;}
+.center-line{position: absolute; top: 179px;left: 0;width: 100%; z-index: 200;border-top: 9px solid #F0EFEF;}
+.left-line{position: absolute;top: 24px;left: -14px;width:15px;border-bottom: 1px solid #eeeeee;}
+.lc-ht{height:24px !important;line-height:24px!important;position:relative;top:0;left:0;}
+.lc-a-ht{height:25px !important;line-height:25px!important;margin:8px 3px 0 3px;background-color:#A4CAFF;padding:0 2px !important;}
+.lc-ac {padding-left:10px !important;}
+.lc-ac > .active{border:1px solid #eeeeee !important;border-bottom:0!important;}
+.pignose-tab-list .b-line{border-bottom:1px solid #eeeeee!important;padding:0 7px;display:inline-block;}
+.pignose-tab-list .b-line:hover{background:#F0EFEF;}
+.pignose-tab-list .b-line.active{border:1px solid #eeeeee;border-top:2px solid #62a3f7!important;border-bottom:0 !important; }
+.pignose-tab-list .lc-a-ht{color:#fff;}
+.pignose-tab-list .lc-a-ht.active{background-color:#6faafa;color:#fff;}
+.dormitory img{text-align:center;}
+.p-relative{position:relative;top:0px;left:0;}
+.p-absolute{display:inline-block;position:absolute;top:25px;left:41.5%;width:13px;height:6px;z-index: 999;}
+.pignose-tab-list>.active>.p-relative>i{background:url("../images/jt.png") no-repeat center;}
+.p-t-53px{padding-top:11px !important;}
+
+.floor,.floorBor,.floorC,.room,.roomBor,.con{display:inline-block;width:100%;}
+.top-hd{float:left;padding:26px 5px 0 5px;}
+.floor>.wrapper>.pignose-tab-group>.pignose-tab-list>.active{color:#62a3f7;}
+.pignose-tab-group{margin-top:5px;}
+.floorBor{border-top: 7px solid #F0EFEF;float:left;height:2px;}
+.roomBor{border-top: 7px solid #F0EFEF;float:left;}
+.floorC>.wrapper>.lc-ac>.pignose-tab-list{float:left;/*padding:0 7px;*/}
+.room>.wrapper>ul>.pignose-tab-list{float:left;min-width:40px;}
+.room>.wrapper>ul>.pignose-tab-list>a{font-size:16px;}
+.room>.wrapper>ul>.pignose-tab-list>a:hover{background:#F0EFEF;}
+
+/*左侧内容*/
+.m-con{display:inline-block;overflow:hidden;width:100%;}
+.con-left{display:inline-block;float:left;overflow:hidden;width:721px;margin-right:11px;}
+
+.xq-left-boy{display:inline-block;float:left;background:#6faafa;text-align:center;color:#fff; padding: 12px 26px;margin:2px 20px 2px 10px;}
+.xq-left-grid{display:inline-block;float:left;background:#FF8267;text-align:center;color:#fff; padding: 12px 26px;margin:2px 20px 2px 10px;}
+.xq-left-wyz{display:inline-block;float:left;background:#E2E2E2;text-align:center;color:#656565; padding: 12px 26px;margin:2px 20px 2px 10px;}
+.xq-l-span1{font-size:22px;}
+.xq-l-span2{font-size:11px;}
+.xq-right{display:inline-block;width:600px;margin:2px 0;height:72px;float:left;overflow:hidden;background:#fff;-webkit-box-shadow: 0px 2px 7px #c7c7c7;  -moz-box-shadow: 0px 2px 7px #c7c7c7;  box-shadow: 0px 2px 7px #c7c7c7;-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='#c7c7c7')"; behavior: url(ie-css3.htc)}
+.xq-right img{display:inline-block;float:left;padding:12px;}
+.xq-right-wrz{display:inline-block;width:600px;text-align:center;margin:2px 0;height:72px;float:left;overflow:hidden;background:#fff;-webkit-box-shadow: 0px 2px 7px #c7c7c7;  -moz-box-shadow: 0px 2px 7px #c7c7c7; box-shadow: 0px 2px 7px #c7c7c7;-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='#c7c7c7')"; behavior: url(ie-css3.htc)}
+.xq-right-wrz img{margin-top:13px;}
+.xq-right ul{display:inline-block;float:left;padding:10px 0 10px 5px;width:522px;overflow:hidden;}
+.xq-right ul li{display:inline-block;float:left;padding-right:7px;}
+.xq-right-span2{display:inline-block;width:125px;}
+.con-right{display:inline-block;float:left;width:310px;}
+.sz{position:relative;top:0;left:0;}
+.sz img{position:absolute;top:0;left:0;}
+.color-pink{color:#FB3571;}
+
+/*右侧统计图*/
+.statisticalData-left,.statisticalData-center,.statisticalData-right{display:inline-block;float:left;margin-top:2px;margin-right:10px;}
+h2{display:inline-block;float:left;padding:10px 0 0 10px;font-weight: normal;font-size:18px;}
+/*.statisticalData-left{background:white;width:380px;height:345px;margin-left:4px; -webkit-box-shadow: 0px 2px 13px #c7c7c7;  -moz-box-shadow: 0px 2px 13px #c7c7c7;  box-shadow: 0px 2px 13px #c7c7c7;   behavior: url(ie-css3.htc);}
+.statisticalData-center{background:white;width:380px;height:345px;-webkit-box-shadow: 0px 2px 13px #c7c7c7;  -moz-box-shadow: 0px 2px 13px #c7c7c7;  box-shadow: 0px 2px 13px #c7c7c7;   behavior: url(ie-css3.htc)}*/
+.statisticalData-right{width:355px;}
+.statisticalData-right .statisticalData-rightFri, .statisticalData-rightSec,.statisticalData-rightThi{display:inline-block;float:left;background:white;width:354px;height:100px;margin-bottom:35px;-webkit-box-shadow: 0px 2px 13px #c7c7c7;  -moz-box-shadow: 0px 2px 13px #c7c7c7;  box-shadow: 0px 2px 13px #c7c7c7; -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='#c7c7c7')";  behavior: url(ie-css3.htc)}
+.dateConFr{display:inline-block;overflow:hidden;width:100%;margin-top:10px;text-align:center;}
+.dateConSec{display:inline-block;overflow:hidden;width:100%;margin-top:10px;text-align:center;}
+.dateConThi{display:inline-block;overflow:hidden;width:100%;margin-top:10px;text-align:center;}
+/* votebox */
+.votebox{width:335px;margin-left:15px;text-align:left;position:relative;z-index:66;}
+/* barbox */
+.barbox{height:16px;line-height:16px;overflow:hidden;}
+.barbox dt a{color:#0048CC;}
+.barbox dd{float:left;}
+.barbox dd.last{color:#999;}
+.barbox dd.barline{width:335px;background:url(../images/jdtbg.png) left center no-repeat;height:16px;overflow:hidden;display:inline;position:relative;top:0;left:0;}
+.barbox dd.barline div.charts{height:7px;overflow:hidden;background:#72ACF4;position:absolute;top:5px;left:0;}
+.barbox dd.barlineCustom{width:335px;background:url(../images/jdtbg2.png) left center no-repeat;height:16px;overflow:hidden;display:inline;position:relative;top:0;left:0;}
+.barbox dd.barlineCustom div.custom{height:7px;overflow:hidden;background:#FF8267;position:absolute;top:5px;left:0;}
+.barbox dd.barlinewtg{width:335px;background:url(../images/jdtbg1.png) left center no-repeat;height:16px;overflow:hidden;display:inline;position:relative;top:0;left:0;}
+.barbox dd.barlinewtg div.customwtg{height:7px;overflow:hidden;background:#FEA64C;position:absolute;top:5px;left:0;}
+.sycw{background:url(../images/xx.png) no-repeat;text-align:center;font-style: normal;position: absolute; top: -8px; right: -3px; width:12px;height:13px;line-height:11px;font-size:12px;}
+
